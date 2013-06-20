@@ -1,4 +1,24 @@
-StudentManagment
-================
+Подготовка БД:
+Открыть консоль mySql под root-доступом
+Выполнить:
+```
+CREATE USER 'sm'@'localhost';
+CREATE DATABASE sm_development;
+GRANT ALL PRIVILEGES ON sm_development.* TO 'sm'@'localhost';
+```
 
-StudentManagment
+Настройка среды Rails
+
+```
+bundle install
+rake db:migrate
+```
+
+Для сидирования тестовыми данными выполнить
+```
+rake db:populate
+```
+Для повторного сидирования:
+
+```
+rake db:repopulate
