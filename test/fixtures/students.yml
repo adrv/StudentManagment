@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  surname: MyString
+  group_id: 1
+  date_of_birth: 2013-06-18
+  email: MyString
+  registration_ip: MyString
+  registration_time: 2013-06-18 20:44:06
+  supervisor_review: MyText
+
+two:
+  name: MyString
+  surname: MyString
+  group_id: 1
+  date_of_birth: 2013-06-18
+  email: MyString
+  registration_ip: MyString
+  registration_time: 2013-06-18 20:44:06
+  supervisor_review: MyText

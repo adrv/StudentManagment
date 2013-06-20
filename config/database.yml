@@ -1,0 +1,6 @@
+development:
+  adapter: mysql2
+  database: sm_development
+  username: sm
+  password:
+  host: localhost
