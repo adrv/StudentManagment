@@ -24,4 +24,8 @@ rake db:populate
 rake db:repopulate
 ```
 
+## Usage
 
+Add the following to your gemfile:
+
+    gem 'momentjs-rails'
