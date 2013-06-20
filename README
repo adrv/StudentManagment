@@ -9,16 +9,19 @@ GRANT ALL PRIVILEGES ON sm_development.* TO 'sm'@'localhost';
 
 Настройка среды Rails
 
-```
+```ruby
 bundle install
 rake db:migrate
 ```
 
 Для сидирования тестовыми данными выполнить
-```
+```ruby
 rake db:populate
 ```
 Для повторного сидирования:
 
-```
+```ruby
 rake db:repopulate
+```
+
+
