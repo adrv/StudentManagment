@@ -2,9 +2,9 @@
 Открыть консоль mySql под root-доступом
 Выполнить:
 ```
-CREATE USER 'sm'@'localhost';
-CREATE DATABASE sm_development;
-GRANT ALL PRIVILEGES ON sm_development.* TO 'sm'@'localhost';
+    CREATE USER 'sm'@'localhost';
+    CREATE DATABASE sm_development;
+    GRANT ALL PRIVILEGES ON sm_development.* TO 'sm'@'localhost';
 ```
 
 Настройка среды Rails
