@@ -19,3 +19,5 @@
     rake db:populate
 
 Для повторного сидирования:
+
+    rake db:repopulate
