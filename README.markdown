@@ -22,6 +22,9 @@
  
 * База данных: MySQL или PostgreSQL
 
+# Схема
+![Scheme](https://www.dropbox.com/s/zlii6u79hto1edu/1.jpg?dl=0&raw=1)
+
 #Запуск
 
 ##Подготовка БД:
@@ -54,4 +57,5 @@
 
 Студенты, зарегистрированные с одинаковых IP, имеющие отзыв науч. руководителя
     Student.registered_in_special_way
-    
+
+
