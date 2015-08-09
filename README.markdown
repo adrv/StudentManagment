@@ -52,10 +52,10 @@
     rake db:repopulate
 
 ##Интерфейсы для запросов:
-Однокурсники со средним баллом от .. до .. и именем %name% :
-    Student.all.sample.specific_classmates(name, min_score, max_score) 
+Однокурсники со средним баллом от .. до .. и именем %name%:
+`Student.all.sample.specific_classmates(name, min_score, max_score)`
 
-Студенты, зарегистрированные с одинаковых IP, имеющие отзыв науч. руководителя
-    Student.registered_in_special_way
+Студенты, зарегистрированные с одинаковых IP, имеющие отзыв науч. руководителя:
+`Student.registered_in_special_way`
 
 
